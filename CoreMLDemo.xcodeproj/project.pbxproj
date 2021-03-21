@@ -13,6 +13,8 @@
 		E8B661AA26079F3700D75791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B661A826079F3700D75791 /* Main.storyboard */; };
 		E8B661AC26079F3800D75791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B661AB26079F3800D75791 /* Assets.xcassets */; };
 		E8B661AF26079F3800D75791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B661AD26079F3800D75791 /* LaunchScreen.storyboard */; };
+		E8B661B826079FA900D75791 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E8B661B726079FA900D75791 /* GoogLeNetPlaces.mlmodel */; };
+		E8B661BB2607A00600D75791 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B661BA2607A00600D75791 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E8B661AB26079F3800D75791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B661AE26079F3800D75791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B661B026079F3800D75791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B661B726079FA900D75791 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		E8B661BA2607A00600D75791 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		E8B661A126079F3700D75791 /* CoreMLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E8B661BA2607A00600D75791 /* Extensions.swift */,
+				E8B661B726079FA900D75791 /* GoogLeNetPlaces.mlmodel */,
 				E8B661A226079F3700D75791 /* AppDelegate.swift */,
 				E8B661A426079F3700D75791 /* SceneDelegate.swift */,
 				E8B661A626079F3700D75791 /* ViewController.swift */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B661BB2607A00600D75791 /* Extensions.swift in Sources */,
 				E8B661A726079F3700D75791 /* ViewController.swift in Sources */,
 				E8B661A326079F3700D75791 /* AppDelegate.swift in Sources */,
 				E8B661A526079F3700D75791 /* SceneDelegate.swift in Sources */,
+				E8B661B826079FA900D75791 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
