@@ -1,0 +1,19 @@
+//
+//  ViewController.swift
+//  CoreMLDemo
+//
+//  Created by Kar Ho She on 21/3/2021.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
